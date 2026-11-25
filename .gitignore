@@ -221,3 +221,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Varian konfigurasi lokal dan berkas penjelajah sistem
+.env.local
+.env.*.local
+Thumbs.db
+.DS_Store
+
+# Cache inferensi notebook; dashboard membaca prediksi dari CSV
+cache_emo_probs.npy
+cache_sent_probs.npy
